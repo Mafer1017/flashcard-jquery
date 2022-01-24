@@ -2,7 +2,21 @@ body{
   margin: 20%;
 }
 
-.jumbotron {
+.card {
   display: flex;
   text-align: center;
+}
+
+
+.clickable, .clickable-op, .clickable-var {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable, .clickable-op, .clickable-var:hover {
+  text-decoration: underline;
+}
+
+#js-showing, #operators-showing, #variables-showing {
+  display: none;
 }
